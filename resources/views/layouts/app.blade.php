@@ -22,6 +22,7 @@
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 
     <link href="{{ asset('css/carlog.css') }}" rel="stylesheet">
+    <script src="https://use.fontawesome.com/releases/v5.11.2/js/all.js" integrity="sha384-b3ua1l97aVGAPEIe48b4TC60WUQbQaGi2jqAWM90y0OZXZeyaTCWtBTKtjW2GXG1" crossorigin="anonymous"></script>
 </head>
 <body>
     <div class="container">
@@ -84,10 +85,10 @@
     <div class="bg-light rounded container-fluid" style="padding: .5rem 1rem">
         <div class="row">
             <div class="col-6">
-                    <a class="btn btn-outline-primary btn-block" href="#">Add Fill-up</a>
+                    <a class="btn btn-outline-primary btn-block" href="#"><i class="fas fa-gas-pump"></i> Add Fill-up</a>
             </div>
             <div class="col-6">
-                    <a class="btn btn-outline-secondary btn-block" href="#">Add Service</a>
+                    <a class="btn btn-outline-secondary btn-block" href="#"><i class="fas fa-wrench"></i> Add Service</a>
             </div>
         </div>
     </div>
