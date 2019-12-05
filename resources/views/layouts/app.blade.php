@@ -26,7 +26,7 @@
 </head>
 <body>
     <div class="container">
-      <nav class="navbar navbar-expand-lg navbar-light bg-light rounded">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light top-rounded">
         <a class="navbar-brand" href="{{ url('/') }}">
                     {{ config('app.name', 'Laravel') }}
 	</a>
@@ -82,10 +82,10 @@
          </ul>
         </div>
       </nav>
-    <div class="bg-light rounded container-fluid" style="padding: .5rem 1rem">
+    <div class="bg-light bottom-rounded container-fluid" style="padding: .5rem 1rem; margin-bottom: 20px;">
         <div class="row">
             <div class="col-6">
-                    <a class="btn btn-outline-primary btn-block" href="#"><i class="fas fa-gas-pump"></i> Add Fill-up</a>
+                    <a class="btn btn-outline-primary btn-block" href="{{ route('fillup/add') }}"><i class="fas fa-gas-pump"></i> Add Fill-up</a>
             </div>
             <div class="col-6">
                     <a class="btn btn-outline-secondary btn-block" href="#"><i class="fas fa-wrench"></i> Add Service</a>
@@ -98,7 +98,7 @@
 @if (\Request::is('register') || \Request::is('login'))
 	@yield('content')
 @else
-          <div class="col-sm-12 mx-auto">
+          <div class="col-sm-10 mx-auto">
 		@yield('content')
           </div>
 @endif

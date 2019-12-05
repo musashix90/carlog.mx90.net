@@ -2,6 +2,25 @@ body {
   padding-bottom: 20px;
 }
 
-.navbar {
-  margin-bottom: 20px;
+/*.navbar {*/
+/*  margin-bottom: 20px;*/
+/*}*/
+
+.top-rounded {
+    border-top-left-radius: 0.25rem !important;
+    border-top-right-radius: 0.25rem !important;
+}
+
+.bottom-rounded {
+    border-bottom-left-radius: 0.25rem !important;
+    border-bottom-right-radius: 0.25rem !important;
+}
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+input[type="number"] {
+    -moz-appearance: textfield;
 }
